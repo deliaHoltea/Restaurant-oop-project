@@ -1,0 +1,24 @@
+Nume client: Maria
+Total incasari: 42
+Produsele cu cea mai mare cantitate: 150 
+Timp de pregatire mediu: 35
+
+Nume client: Delia
+Total incasari: 83
+Produsele cu cea mai mare cantitate: 200 
+Timp de pregatire mediu: 36
+
+Nume client: Mihai
+Total incasari: 132
+Produsele cu cea mai mare cantitate: 450 
+Timp de pregatire mediu: 35
+
+Nume client: Gigel
+Total incasari: 76
+Produsele cu cea mai mare cantitate: 400 
+Timp de pregatire mediu: 31
+
+Nume client: Marian
+Total incasari: 132
+Produsele cu cea mai mare cantitate: 350 450 
+Timp de pregatire mediu: 36.25

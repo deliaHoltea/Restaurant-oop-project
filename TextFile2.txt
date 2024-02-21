@@ -1,0 +1,29 @@
+PizzaCasei 
+6
+Faina 100.2 Oua 3 Cascaval 125 Ulei 20 Salam 150 Masline 75
+25
+42 450 923.78 31 211
+
+PuiGorgonzola
+3
+Pui 150 Gorgonzola 100 Cascaval 50
+22
+34.9 350 532 22.4 123
+
+Paste
+4
+Paste 20 Rosii 50 Ciuperci 60 Pui 150
+40
+45 350 450 15 273
+
+PizzaDiavola
+5
+Faina 150 Oua 4 Ulei 20 Ciuperci 55 Salam 65
+31
+38 400 820 19 300
+
+PizzaCapricioasa
+5
+Faina 100 Oua 3 Cascaval 100 Sunca 250 Ciuperci 50
+30
+35 600 457.23 24 15
