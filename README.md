@@ -34,24 +34,41 @@ The application allows for:
 
 ## Input Files
 
-- `TextFile1.txt` – contains the list of available ingredients.  
-  Example format:
-  ```
-  tomatoes 100
-  cheese 50
-  ham 80
-  ```
+### `TextFile1.txt` – Ingredients file
 
-- `TextFile2.txt` – contains the list of menu products.  
-  Example format:
-  ```
-  PizzaMargherita
-  2 tomatoes 50 cheese 30
-  10
-  25.0
-  500.0
-  200.0 15.0 30.0
-  ```
+Each line contains the name of an ingredient and the quantity in stock, separated by a space.  
+This file is read into a `set<MateriePrima>` for uniqueness and is used to initialize the central stock of ingredients.
+
+**Example:**
+```
+tomatoes 100
+cheese 50
+ham 80
+```
+
+- `tomatoes` – ingredient name (string)
+- `100` – quantity in stock (double)
+
+### `TextFile2.txt` – Products file
+
+Each product is defined across 6 consecutive lines:
+
+1. Product name (string)
+2. Recipe: number of ingredients followed by pairs of (ingredient_name quantity) (e.g., `2 tomatoes 50 cheese 30`)
+3. Preparation time in minutes (float)
+4. Product price (float)
+5. Product weight in grams (float)
+6. Nutritional values: calories, proteins, carbohydrates (floats)
+
+**Example:**
+```
+PizzaMargherita
+2 tomatoes 50 cheese 30
+10
+25.0
+500.0
+200.0 15.0 30.0
+```
 
 ## How to Run
 
